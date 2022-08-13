@@ -1,0 +1,54 @@
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: rgb(255, 213, 220);
+	opacity: 0.9;
+}
+
+img {
+	float: left;
+	width: 40px;
+	margin-right: 5px;
+}
+
+header a {
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.logo {
+	padding: 20px;
+	width: 140px;
+	display: inline-block;
+}
+
+.menu {
+	float: right;
+	margin: 10px;
+}
+
+.menu li {
+	display: inline-block;
+	list-style: none;
+	padding: 20px;
+}
+
+@media (max-width: 640px) {
+	header {
+		position: unset;
+		top: auto;
+	}
+
+	.menu,
+	.logo {
+		float: none;
+	}
+
+}
+
+@media (max-width: 360px) {
+	.menu li {
+		display: block;
+	}
+}

@@ -1,0 +1,21 @@
+.feedback {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	margin: 10px;
+}
+
+.container .info-card {
+	color: black;
+	background-color: rgb(0, 0, 0, 0.1);
+
+}
+
+@media (max-width: 600px) {
+	.container {
+		display: block;
+	}
+}
